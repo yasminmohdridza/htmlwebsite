@@ -1,0 +1,93 @@
+@media screen and (max-width: 1200px){
+    .icon {
+        padding: 0 5% 40% 5%;
+       }
+}
+
+
+@media screen and (max-width: 1134px){
+    .transparent-button {
+        padding: 3%;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .first-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left, .right {
+        flex: 100%;
+        margin: 5% 5%;
+        
+    }
+
+    .book-details {
+        padding-left: 30%;
+    }
+
+    .icon {
+        padding: 0 5% 15% 5%;
+    }
+
+    .stacked-column {
+        width: 60%;
+    }
+
+
+    iframe {
+        width: 550px;
+        height: 300px;
+    }
+}
+
+
+@media screen and (max-width: 670px){
+    .column {
+        margin: 5% 5%;
+        height: 900px;
+    }
+
+    iframe {
+        width: 420px;
+        height: 250px;
+    }
+
+    .book-details {
+        padding-left: 15%;
+    }
+
+    .icon-for-six {
+        flex: 100%;
+        padding: 8% 1% 50% 5%;
+    }
+       
+    .text-for-six {
+        flex: 100%;
+        font-size: 20px;
+        color: rgb(137, 137, 137);
+    }
+
+    .six-points {
+        flex-direction: column;
+    }
+
+    .col-two {
+        padding-left: 0;
+    }
+
+    .first-testimonial, .second-testimonial, .third-testimonial {
+        flex: 100%;
+    }
+
+    .stacked-column {
+        height: 600px;
+        width: 80%;
+        top: -150px;
+        position: relative;
+        margin: 0 auto;
+        padding: 5%;
+    }
+}

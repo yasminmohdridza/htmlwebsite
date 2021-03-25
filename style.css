@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    background-image: url(circle.png);
+    background-color: rgba(241, 241, 241, 1);
+    background-repeat: no-repeat;
+    background-position: right top;
+    color: rgb(51, 51, 51);
+    margin: 0;
+}
+
+
+h3 {
+    font-size: 42px;
+    text-align: center;
+    line-height: 130%;
+    padding: 15px;
+    margin-bottom: 5%;
+}
+
+/* --------------------------------------------------------------------------------------*/
+/* --------------------------------FIRST PAGE-------------------------------------------*/
+/* --------------------------------------------------------------------------------------*/
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.column {
+    background-color: rgba(255, 255, 255, 1);
+    margin: 45px 100px 45px 100px;
+}
+
+.left {
+    flex: 60%;
+    margin-right: 3%;
+    padding: 3%;
+    
+}
+
+.right {
+    flex: 40%;
+    margin-left: 0;
+    padding: 3%;
+}
+
+/* 1st column */
+.left-column div {
+    padding: 30px;
+}
+
+
+/* video */
+iframe {
+    width: 450px;
+    height: 250px;
+}
+
+.youtube {
+    text-align: center;
+}
+
+/* 3rd */
+
+h5 {
+    font-size: 22px;
+    margin-bottom: 13px;
+}
+
+.fa_custom {
+    color: rgba(223, 81, 67, 1);
+    padding-right: 8px;
+}
+
+.feature-list {
+    padding: 20px 0 10px 0;
+    list-style: none;
+    color:  #444242;
+}
+
+
+
+/* --------form part 1-------------- */
+
+.transparent-button {
+    padding: 5%;
+    font-size: 15px;
+    transition: opacity .3s ease;
+    border: none;
+    border-bottom: 2px solid transparent;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+}
+
+.transparent-button.active {
+    opacity: 1;
+    border-bottom: 2px solid #333;
+}
+
+.transparent-button:hover {
+    color: rgb(168, 32, 32);
+    border-bottom: 2px solid #333;
+}
+
+.selection {
+    text-align: center;
+}
+
+.selection button a {
+    color: #444;
+    text-decoration: none;
+}
+
+/* --------form part 2-------------- */
+
+.right-column div {
+    padding: 10px 40px 0 40px;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #635f5f;
+}
+
+.form-inline input {
+    padding: 4%;
+    margin: 2px 0 2px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 98.5%;
+}
+
+#city, #postal-code, #country, #state {
+    width: 49%;
+    float: left;
+    margin-right: 2px;
+}
+
+/* --------next step button-------------- */
+
+.next-step-button {
+    font-size: 18px;
+    font-family: 'Arial';
+    color: #ffffff;
+    background-color: #eb6a56;
+    border: none;
+    padding: 15px;
+    width: 98.5%;
+    margin-top: 15px;
+}
+
+.hr-title {
+    border-color: rgba(223, 81, 67, 1);
+    width: 25%;
+    float: left;
+    margin-bottom: 13px;
+}
+
+/* --------shield & lock icon -------------- */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    color: #999999;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    list-style: none;
+    margin: 10px 0 10px 0;
+    padding: 2%;
+}
+
+
+.flex-item-left {
+    flex: 50%;
+    padding-right: 2%;
+}
+
+.flex-item-right {
+    flex: 50%;
+}
+
+.shield-icon, 
+.padlock-icon {
+    font-size: 13px;
+    height: 54px;
+    width: 54px;
+    display: inline-block;
+    float: left;
+}
+
+
+/* --------checked icon & 30 days guarantee info-------------- */
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+ flex: 20%;
+ float: left;
+ height: 30px;
+ padding: 0 5% 35% 5%;
+}
+
+.text {
+    flex: 70%;
+}
+
+
+/* --------------------------------------------------------------------------------------*/
+/* --------------------------------SECOND PAGE-------------------------------------------*/
+/* --------------------------------------------------------------------------------------*/
+
+.white-page {
+    padding: 11%;
+    background-color: white;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+.second-title {
+    font-size: 42px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.steve-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.six-points {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%;
+}
+
+.col-one,
+.col-two {
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.col-two {
+    padding-left: 5%;
+}
+
+/* --------checked icon & 6 points-------------- */
+
+.container-for-six {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-for-six {
+ flex: 30%;
+ float: left;
+ height: 5px;
+ padding: 8% 1% 25% 5%;
+
+}
+
+.text-for-six {
+    flex: 50%;
+    font-size: 20px;
+    color: rgb(137, 137, 137);
+}
+
+/* --------------------------------------------------------------------------------------*/
+/* --------------------------------THIRD PAGE-------------------------------------------*/
+/* --------------------------------------------------------------------------------------*/
+
+.testemonials {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #3e3e3e;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    padding-top: 10%;
+    text-align: center;
+}
+
+.sub {
+    margin: 0 0;
+}
+
+.italic {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: #3e3e3e;
+    text-align: center;
+}
+
+.parent {
+    margin: 5% 15%;
+    font-size: 150%;
+}
+
+.fa-star {
+    color: rgb(255, 193, 60);
+}
+
+.child {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.three-testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.first-testimonial, .second-testimonial, .third-testimonial {
+    flex: 30%;
+    padding: 1%;
+}
+
+
+.name {
+    margin-bottom: 7%;
+    font-size: 35px;
+}
+
+.feedback {
+    font-size: 18px;
+}
+
+
+/* --------------------------------------------------------------------------------------*/
+/* --------------------------------FOURTH PAGE-------------------------------------------*/
+/* --------------------------------------------------------------------------------------*/
+
+.grey-page {
+    padding: 80px 20px;
+    background-color: rgb(238, 238, 238);
+}
+
+.stacked-column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(252, 252, 252, 1);
+    height: 600px;
+    width: 38%;
+    top: -150px;
+    position: relative;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.stacked-item {
+    padding: 3%;
+}
+
+.purchase-button {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Arial';
+    background-color: rgba(222, 73, 58, 1);
+    padding: 13% 16%;
+    border-style: none;
+    cursor: pointer;
+}
+
+.payment {
+    width: 60%;
+    height: 75%;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
